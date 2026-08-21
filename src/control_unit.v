@@ -79,7 +79,7 @@ always @(*) begin
         XOR: begin
             if(funct7 == 7'b0000000) begin
                 reg_write = 1'b1;
-                mem_write = 1'b0;
+                mem_write = 1'b0; 
                 alu_src = 1'b0;
                 branch = 1'b0;
                 result_src = 1'b0;
